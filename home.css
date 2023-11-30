@@ -163,6 +163,7 @@ header .menu-container nav a:hover {
 @media only screen and (max-width: 740px) {
     header .menu-container {
         flex-direction: column;
+        width: auto;
     }
     .filme-principal{
         width: auto;
@@ -196,4 +197,5 @@ header .menu-container nav a:hover {
     .botoes #botao-play{
         display: flex;
     }
+
 }
