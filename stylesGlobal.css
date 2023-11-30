@@ -1,0 +1,25 @@
+@font-face {
+    font-family: NetflixSans;
+    src: url('fonts/NetflixSans-Regular.otf');
+}
+
+:root{
+    --proxBlack: #0c0c0c;
+    --NetRed: #E50914;
+    --grey : #808080;
+}
+
+*{
+    background-color: var(--proxBlack);
+    color: white;
+    font-family: NetflixSans;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
