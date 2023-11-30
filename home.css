@@ -1,0 +1,199 @@
+header {
+    background-color: transparent;
+}
+
+header img {
+    background-color: transparent;
+    width: 100px;
+    margin: 11px;
+    left: 5%;
+
+}
+
+
+header .menu-container {
+    margin: 0;
+    padding: 0 4%;
+    background: linear-gradient(rgba(0, 0, 0, 0.914), rgba(0, 0, 0, 0.914) 100%), url('./img/juliaCrianca.jpeg');
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header .menu-container a {
+    background-color: transparent;
+}
+
+
+
+header .menu-container nav a {
+    background-color: transparent;
+    text-decoration: none;
+    color: #fff;
+    margin-right: 10px;
+}
+
+header .menu-container nav a:hover {
+    color: #AAA;
+}
+
+
+/*Filme Principal*/
+
+.item2 {
+    width: 90%;
+}
+
+.item img{
+    height: 400px;  
+}
+
+.filme-principal {
+    margin: 0;
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url('./img/juliaCrianca.jpeg');
+    font-size: 16px;
+    background-size: cover;
+    height: 660px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+
+.filme-principal .container {
+    margin: 100px;
+    background-color: transparent;
+}
+
+
+.filme-principal .container .menu-container {
+    background-color: transparent;
+}
+
+.filme-principal .img-tittle {
+    margin-left: 5%;
+    background-color: transparent;
+    margin-top: 15%;
+    width: 500px;
+    font-family: NetflixSans;
+}
+
+.filme-principal .descricao {
+    background-color: transparent;
+
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.botoes {
+    border-radius: 2px;
+    background-color: transparent;
+}
+
+
+
+.botoes #botao-play {
+    color: black;
+    background-color: white;
+}
+
+.botoes #botao-play .fa-play {
+    font-size: 20px;
+    color: black;
+    background-color: transparent;
+}
+
+
+
+
+.botao {
+    background-color: rgba(0, 0, 0, .50);
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: .3s ease all;
+    border-radius: 5px;
+    height: 50px;
+}
+
+.botao:hover {
+    opacity: 0.7;
+
+}
+
+.botao i {
+
+    margin-right: 8px;
+}
+
+.carrosel-filmes {
+    margin-top: 5px;
+}
+
+.grid {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    gap: 20px;
+    grid-template-columns: 2fr 2fr;
+}
+
+.grid img {
+    border-radius: 20%;
+    -webkit-box-shadow: 10px 9px 32px -7px rgba(255, 255, 255, 0.282);
+    -moz-box-shadow: 10px 9px 32px -7px rgba(255, 255, 255, 0.253);
+    box-shadow: 10px 9px 32px -7px rgba(255, 255, 255, 0.326);
+    width: 600px;
+    height: 600px;
+}
+
+.span {
+    display: flex;
+    font-size: 40px;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+@media only screen and (max-width: 740px) {
+    header .menu-container {
+        flex-direction: column;
+    }
+    .filme-principal{
+        width: auto;
+        background-size: cover;
+        background-position: 1250rem;
+    }
+     .grid {
+        grid-template-columns: 1fr;
+
+    }
+
+    .grid img {
+        width: 350px;
+        height: 350px;
+    }
+    .filme-principal .container{
+        margin: 0;
+        margin-left: 2rem;
+        margin-top: 7rem;
+    }
+    .filme-principal .img-tittle{
+        margin: 0;
+        width: 300px;
+    }
+    .filme-principal .descricao{
+        font-size: 15px;
+    }
+    .botoes{
+        display: flex;
+    }
+    .botoes #botao-play{
+        display: flex;
+    }
+}

@@ -1,0 +1,5 @@
+Colors Netflix:
+
+	Red - #E50914 
+	prox black - #0c0c0c
+	
